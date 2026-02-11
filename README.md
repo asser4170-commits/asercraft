@@ -1,3 +1,21 @@
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-9nrst9
+# AserCraft (Original Voxel Sandbox Prototype)
+
+AserCraft is a small, original block-building sandbox prototype inspired by classic voxel game loops.
+
+## Legal note
+This project is **not** Minecraft, and it does not include copied Minecraft code, assets, branding, or proprietary content.
+
+## Features
+- Procedural 2D block world with layered terrain (grass, dirt, stone).
+- Player movement with gravity and jumping.
+- Block breaking and placing with mouse controls.
+- Hotbar with selectable block type.
+- Local save/load using browser `localStorage`.
+
+## Run locally
+You can open `index.html` directly, or run a tiny server:
+=======
  <<<<<<< codex/create-minecraft-knockoff-with-original-structure-s9h30q
 # Blocky Frontier
 
@@ -26,11 +44,25 @@ Voxel Frontier is an original, permissively licensed voxel sandbox prototype ins
 - Lightweight, dependency-free setup (served as static files).
 
 ## Run locally
+ >>>>>>> main
 
 ```bash
 python3 -m http.server 8000
 ```
 
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-9nrst9
+Then open <http://localhost:8000>.
+
+## Controls
+- `A` / `D`: move
+- `Space`: jump
+- `1` / `2` / `3`: choose block in hotbar
+- Left click: break block
+- Right click: place selected block
+- `R`: regenerate world
+- `P`: save world
+- `L`: load world
+=======
 Open http://localhost:8000 in a browser.
 
 ## Legal note
@@ -90,5 +122,6 @@ Then open:
 ## Notes
 
 This project is intentionally lightweight so it can be extended into a full 3D voxel engine later.
+ >>>>>>> main
  >>>>>>> main
  >>>>>>> main
