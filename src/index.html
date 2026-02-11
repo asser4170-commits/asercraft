@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asercraft Prototype</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, sans-serif;
+        background: #10131a;
+        color: #e5e7eb;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        min-height: 100vh;
+      }
+      .sidebar {
+        border-right: 1px solid #1f2937;
+        padding: 16px;
+        background: #0b0f16;
+      }
+      .sidebar h1 {
+        margin-top: 0;
+        font-size: 1.3rem;
+      }
+      .muted {
+        color: #94a3b8;
+      }
+      .panel {
+        margin-top: 16px;
+        padding: 12px;
+        border: 1px solid #1f2937;
+        border-radius: 8px;
+        background: #111827;
+      }
+      .game-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      canvas {
+        border: 1px solid #334155;
+        background: #0f172a;
+        image-rendering: pixelated;
+      }
+      .hotbar span {
+        display: inline-block;
+        min-width: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <h1>Asercraft</h1>
+        <p class="muted">Original voxel-style sandbox prototype.</p>
+        <div class="panel">
+          <strong>Controls</strong>
+          <ul>
+            <li>Move: WASD</li>
+            <li>Break: Left click</li>
+            <li>Place: Right click</li>
+            <li>Hotbar: 1-4</li>
+            <li>Regen: R</li>
+            <li>Save/Load: K/L</li>
+          </ul>
+        </div>
+        <div class="panel hotbar" id="hotbar"></div>
+        <div class="panel" id="status"></div>
+      </aside>
+      <main class="game-wrap">
+        <canvas id="game" width="768" height="768"></canvas>
+      </main>
+    </div>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
