@@ -1,3 +1,18 @@
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-s9h30q
+# Blocky Frontier
+
+Blocky Frontier is an original, legal voxel sandbox prototype inspired by the *genre* of early block-building games.
+
+## Goals
+
+- Keep the project original (code, branding, and behavior)
+- Showcase chunkless block placement/removal with a simple terrain seed
+- Provide a tiny starter architecture that is easy to expand
+
+## Run locally
+
+Because this project imports ES modules from a CDN, run it with a local web server:
+=======
  <<<<<<< codex/create-minecraft-knockoff-with-original-structure-6y58gt
 # Voxel Frontier
 
@@ -38,11 +53,26 @@ but it does not copy proprietary game code, assets, branding, or world content.
 ## Run locally
 
 Because this is plain HTML/CSS/JS, you can run any static server:
+ >>>>>>> main
 
 ```bash
 python3 -m http.server 4173
 ```
 
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-s9h30q
+Then open <http://localhost:4173>.
+
+## Controls
+
+- Orbit camera: drag with mouse
+- Left click: remove selected block
+- Right click: place currently selected block
+- `1`, `2`, `3`: choose block type
+
+## Legal note
+
+This project intentionally avoids copying proprietary source code, assets, and branding from any commercial game.
+=======
 Then open:
 
 - `http://localhost:4173/src/`
@@ -60,4 +90,5 @@ Then open:
 ## Notes
 
 This project is intentionally lightweight so it can be extended into a full 3D voxel engine later.
+ >>>>>>> main
  >>>>>>> main
