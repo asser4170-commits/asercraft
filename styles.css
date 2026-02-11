@@ -1,0 +1,111 @@
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-s9h30q
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(#75b9f8, #c6e9ff 60%);
+}
+
+#app {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+=======
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Inter, system-ui, sans-serif;
+  background: #8ecaf7;
+}
+
+canvas {
+  display: block;
+ >>>>>>> main
+}
+
+#hud {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-s9h30q
+  z-index: 10;
+  max-width: 36rem;
+  background: rgb(10 18 33 / 72%);
+  border: 1px solid rgb(183 214 255 / 45%);
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  backdrop-filter: blur(6px);
+=======
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  max-width: 28rem;
+ >>>>>>> main
+}
+
+#hud h1 {
+  margin: 0;
+ <<<<<<< codex/create-minecraft-knockoff-with-original-structure-s9h30q
+  font-size: 1.2rem;
+}
+
+#hud p {
+  margin: 0.55rem 0;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+#hotbar {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.block-chip {
+  border: 1px solid #d8e7ff99;
+  border-radius: 0.45rem;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.85rem;
+  background: rgb(7 9 23 / 65%);
+}
+
+.block-chip.selected {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px #74b6ff8c inset;
+=======
+  font-size: 1.4rem;
+}
+
+#hud p,
+#hud ul {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+#hud ul {
+  padding-left: 1.1rem;
+}
+
+kbd {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+#crosshair {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  color: #ffffffcc;
+  font-size: 1.6rem;
+  pointer-events: none;
+ >>>>>>> main
+}
